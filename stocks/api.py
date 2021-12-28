@@ -1,7 +1,7 @@
 from ninja import NinjaAPI
 
 # INSTANTIATE API OBJECT FROM DJANGO-NINJA
-api = NinjaAPI()
+api = NinjaAPI(version='stocks')
 
 
 # API ENDPOINTS FOR tiingo.py
