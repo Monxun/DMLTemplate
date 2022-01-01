@@ -21,3 +21,53 @@ Boilerplate for ML Projects
 # move to src directory
 cd /src/
 
+# File Structure
+
+├───charts
+│   ├───data
+│   ├───management
+│   │   └───commands
+│   │       └───__pycache__
+│   ├───migrations
+│   │   └───__pycache__
+│   └───__pycache__
+├───DjangoApp
+│   └───__pycache__
+├───iris
+│   ├───migrations
+│   └───__pycache__
+├───ml
+│   ├───management
+│   │   └───commands
+│   │       └───__pycache__
+│   ├───migrations
+│   ├───projects
+│   │   ├───ML_Template
+│   │   │   ├───input
+│   │   │   ├───metrics
+│   │   │   ├───models
+│   │   │   ├───notebooks
+│   │   │   │   └───.ipynb_checkpoints
+│   │   │   └───src
+│   │   │       └───__pycache__
+│   │   └───Store_Timeseries
+│   │       ├───input
+│   │       ├───metrics
+│   │       ├───models
+│   │       ├───notebooks
+│   │       │   └───.ipynb_checkpoints
+│   │       └───src
+│   │           └───__pycache__
+│   └───__pycache__
+├───stocks
+│   ├───migrations
+│   ├───src
+│   │   └───__pycache__
+│   └───__pycache__
+└───templates
+    ├───charts
+    │   └───partials
+    ├───iris
+    ├───ml
+    ├───partials
+    └───stocks
