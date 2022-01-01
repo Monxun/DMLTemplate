@@ -2,6 +2,7 @@ from django.urls import path
 from . import views
 from .api import api
 
+# {% url 'app_name:name' %}
 app_name = 'iris'
 
 urlpatterns = [

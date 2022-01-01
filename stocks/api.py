@@ -5,7 +5,7 @@ api = NinjaAPI(version='stocks')
 
 
 # API ENDPOINTS FOR tiingo.py
-from .tiingo import get_meta_data, get_price_data
+from .src.tiingo import get_meta_data, get_price_data
 
 @api.get("/meta/{tid}")
 def GetMetaData(request, tid: str):

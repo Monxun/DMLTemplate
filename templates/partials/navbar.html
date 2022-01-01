@@ -11,7 +11,7 @@
               finance
             </a>
             <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-              <li><a class="dropdown-item" href="{% url 'index' %}">stocks</a></li>
+              <li><a class="dropdown-item" href="{% url 'stocks:index' %}">stocks</a></li>
             </ul>
           </li>
           <li class="nav-item dropdown">
@@ -21,6 +21,24 @@
             <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
               <li><a class="dropdown-item" href="{% url 'iris:predict' %}">predict</a></li>
               <li><a class="dropdown-item" href="{% url 'iris:results' %}">results</a></li>
+            </ul>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              ml
+            </a>
+            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+              <li><a class="dropdown-item" href="{% url 'ml:overview' %}">overview</a></li>
+            </ul>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              charts
+            </a>
+            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+              <li><a class="dropdown-item" href="{% url 'charts:bar' %}">bar</a></li>
+              <li><a class="dropdown-item" href="{% url 'charts:linechart' %}">line</a></li>
+              <li><a class="dropdown-item" href="{% url 'charts:multi' %}">multi-line</a></li>
             </ul>
           </li>
         </ul>

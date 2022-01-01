@@ -3,7 +3,7 @@ from django.http import HttpResponseRedirect
 
 # METHODS / MODELS / FORMS
 from .forms import TickerForm
-from .tiingo import get_meta_data, get_price_data
+from .src.tiingo import get_meta_data, get_price_data
 
 
 def index(request):

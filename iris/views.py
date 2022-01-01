@@ -3,7 +3,6 @@ from django.http import JsonResponse
 from . models import PredResults
 
 import pandas as pd
-import pickle5 as pickle
 import os
 
 # Create your views here.
