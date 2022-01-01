@@ -10,7 +10,7 @@ from .models import GDP
 import math
 
 # Create your views here.
-def index(request):
+def bar(request):
     # Define which year we want data from
     max_year = GDP.objects.aggregate(max_yr=Max('year'))['max_yr']
     min_year = GDP.objects.aggregate(min_yr=Min('year'))['min_yr']

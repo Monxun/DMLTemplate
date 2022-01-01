@@ -3,6 +3,9 @@ Boilerplate for ML Projects
 
 # Steps:
 
+* Install Django project dependencies from requirements.txt
+* Install ML dependencies from /ml/projects/ML_Template/requirements.txt
+
 1. Create new folder named 'input' in project directory
 2. Place data files for model in input folder
 3. Update src/config.py with paths, models, other params
@@ -17,3 +20,4 @@ Boilerplate for ML Projects
 
 # move to src directory
 cd /src/
+
