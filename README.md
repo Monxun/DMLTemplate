@@ -23,6 +23,8 @@ cd /src/
 
 # File Structure
 
+```bash
+< PROJECT ROOT >
 ├───charts
 │   ├───data
 │   ├───management
@@ -71,3 +73,5 @@ cd /src/
     ├───ml
     ├───partials
     └───stocks
+```
+
