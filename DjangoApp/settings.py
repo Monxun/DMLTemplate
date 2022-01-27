@@ -46,6 +46,8 @@ INSTALLED_APPS = [
     # Apps
     'stocks',
     'iris',
+    'ml',
+    'charts',
     
 ]
 

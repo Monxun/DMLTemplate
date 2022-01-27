@@ -20,4 +20,6 @@ urlpatterns = [
     path('admin/', admin.site.urls),
     path('stocks/', include('stocks.urls')),
     path('iris/', include('iris.urls')),
+    path('ml/', include('ml.urls')),
+    path('charts/', include('charts.urls')),
 ]
