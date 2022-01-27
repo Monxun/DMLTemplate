@@ -4,4 +4,4 @@ django-rest-framework
 django-extensions
 django-htmx
 bokeh
-
+requests
