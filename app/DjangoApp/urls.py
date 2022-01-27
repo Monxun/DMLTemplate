@@ -17,9 +17,11 @@ from django.contrib import admin
 from django.urls import path, include
 
 urlpatterns = [
+    path('', include('stocks.urls')),
     path('admin/', admin.site.urls),
     path('stocks/', include('stocks.urls')),
     path('iris/', include('iris.urls')),
     path('ml/', include('ml.urls')),
     path('charts/', include('charts.urls')),
+    path('screener/', include('screener.urls')),
 ]
