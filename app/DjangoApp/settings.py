@@ -48,6 +48,7 @@ INSTALLED_APPS = [
     'iris',
     'ml',
     'charts',
+    'screener'
     
 ]
 
